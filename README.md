@@ -14,7 +14,8 @@ pipx ensurepath
 ## install project
 
 ```sh
-uv pip install -q -U google-genai
+cp .env.example .env
+uv sync
 ```
 
 ## run
